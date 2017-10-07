@@ -1,0 +1,27 @@
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+exclude: ["Gemfile", "Gemfile.lock", "new_post", "CNAME"]
+
+markdown: kramdown
+
+kramdown:
+    input: GFM
+    hard_wrap: false
+    syntax_highlighter_opts:
+    disable: true
+
+disqus_shortname: microdrum
+
+plugins:
+  - jekyll-sitemap
