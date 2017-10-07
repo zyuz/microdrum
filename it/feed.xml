@@ -1,7 +1,6 @@
 ---
 layout: blank
 lang: it
-title: "Notizie E-Drums Project"
+title: "Notizie microDrum"
 ---
-
 {% include feed.xml %}

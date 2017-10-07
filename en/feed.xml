@@ -1,7 +1,6 @@
 ---
 layout: blank
 lang: en
-title: "E-Drums Project News"
+title: "microDrum News"
 ---
-
 {% include feed.xml %}
