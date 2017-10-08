@@ -5465,7 +5465,7 @@ button.list-group-item-danger.active:focus {
 }
 .panel {
   margin-bottom: 20px;
-  background-color: #ffffff;
+  background-color: #111111;
   border: 1px solid transparent;
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -5721,14 +5721,14 @@ button.list-group-item-danger.active:focus {
 }
 .panel-primary > .panel-heading {
   color: #ffffff;
-  background-color: #222222;
+  background-color: #f0180c;
   border-color: #222222;
 }
 .panel-primary > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #222222;
 }
 .panel-primary > .panel-heading .badge {
-  color: #222222;
+  color: #f0180c;
   background-color: #ffffff;
 }
 .panel-primary > .panel-footer + .panel-collapse > .panel-body {
@@ -9532,6 +9532,11 @@ body {
 footer {
   margin-bottom: 1em;
 }
+input,
+select,
+textarea {
+  color: #000;
+}
 h1 {
   margin-top: 0.2em;
 }
@@ -9552,6 +9557,10 @@ aside .panel-body {
 }
 aside .nav-pills > li > a {
   padding: 5px 8px;
+  color: #ffffff;
+}
+aside .nav-pills > li > a:hover {
+  color: #222222;
 }
 table .progress {
   margin-bottom: 0;
