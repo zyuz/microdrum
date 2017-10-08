@@ -1,36 +1,79 @@
 <div class="panel panel-primary">
 {% assign head_title="Follow Us" %}
 {% if page.lang == "it" %} {% assign head_title="Seguici" %} {% endif %}
-  <div class="panel-heading"><i class="fa fa-link fa-fw" aria-hidden="true"></i> {{ head_title }}</div>
-  <div class="panel-body">
-    <ul class="nav nav-pills nav-stacked">
-      <li><a href="https://github.com/massimobernava/">
-        <i class="fa fa-github fa-fw" aria-hidden="true"></i> GitHub</a>
-      </li>
-      <li><a href="https://www.facebook.com/microdrum/">
-        <i class="fa fa-facebook fa-fw" aria-hidden="true"></i> Facebook</a>
-      </li>
-      <li><a href="https://www.youtube.com/user/MassimoBernava/">
-        <i class="fa fa-youtube fa-fw" aria-hidden="true"></i> YouTube</a>
-      </li>
-      <li><a href="http://microdrum.altervista.org/forum/">
-        <i class="fa fa-users fa-fw" aria-hidden="true"></i> Forum</a>
-      </li>
-      <li><a href="/{{ page.lang }}/feed.xml" title="News RSS Feed">
-          <i class="fa fa-rss fa-fw" aria-hidden="true"></i> News RSS Feed</a>
-      </li>
-    </ul>
-  </div>
+    <div class="panel-heading"><i class="fa fa-eye fa-fw" aria-hidden="true"></i> {{ head_title }}</div>
+    <div class="panel-body">
+        <ul class="nav nav-pills nav-stacked">
+            <li><a href="https://github.com/massimobernava/">
+                <i class="fa fa-github fa-fw" aria-hidden="true"></i> GitHub</a>
+            </li>
+            <li><a href="https://www.facebook.com/microdrum/">
+                <i class="fa fa-facebook fa-fw" aria-hidden="true"></i> Facebook</a>
+            </li>
+            <li><a href="https://www.youtube.com/user/MassimoBernava/">
+                <i class="fa fa-youtube fa-fw" aria-hidden="true"></i> YouTube</a>
+            </li>
+            <li><a href="http://microdrum.altervista.org/forum/">
+                <i class="fa fa-users fa-fw" aria-hidden="true"></i> Forum</a>
+            </li>
+            <li><a href="/{{ page.lang }}/feed.xml" title="News RSS Feed">
+                <i class="fa fa-rss fa-fw" aria-hidden="true"></i> News RSS Feed</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="panel panel-primary">
+{% assign head_title="Quick Links" %}
+{% if page.lang == "it" %} {% assign head_title="Collegamenti Rapidi" %} {% endif %}
+    <div class="panel-heading"><i class="fa fa-link fa-fw" aria-hidden="true"></i> {{ head_title }}</div>
+    <div class="panel-body">
+        <ul class="nav nav-pills nav-stacked">
+            <li><a href="http://www.digital-drums.it/">
+                <i class="fa fa-book fa-fw" aria-hidden="true"></i> Digital Drums</a>
+            </li>
+        </ul>
+    </div>
 </div>
 <!--div class="panel panel-primary">
 {% assign head_title="Contacts" %}
 {% if page.lang == "it" %} {% assign head_title="Contatti" %} {% endif %}
-  <div class="panel-heading"><i class="fa fa-users fa-fw" aria-hidden="true"></i> {{ head_title }}</div>
-  <div class="panel-body">
-    <ul class="nav nav-pills nav-stacked">
-      <li><a href="/en/email/">
-        <i class="fa fa-envelope fa-fw" aria-hidden="true"></i> EMail</a>
-      </li>
-    </ul>
-  </div>
+    <div class="panel-heading"><i class="fa fa-users fa-fw" aria-hidden="true"></i> {{ head_title }}</div>
+    <div class="panel-body">
+        <ul class="nav nav-pills nav-stacked">
+            <li><a href="/{{ page.lang }}/email/">
+                <i class="fa fa-envelope fa-fw" aria-hidden="true"></i> EMail</a>
+            </li>
+        </ul>
+    </div>
 </div-->
+<div class="panel panel-primary">
+{% assign head_title="Donate" %}
+{% assign amount_txt="Donation Amount:" %}
+{% assign curr_txt="(Currency: EUR)" %}
+{% if page.lang == "it" %}
+    {% assign head_title="Donazione" %}
+    {% assign amount_txt="Offerta:" %}
+    {% assign curr_txt="(Valuta: Euro)" %}
+{% endif %}
+    <div class="panel-heading"><i class="fa fa-paypal fa-fw" aria-hidden="true"></i> {{ head_title }}</div>
+    <div class="panel-body">
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" id="cmd" name="cmd" value="_donations">
+            <label for="amount">{{ amount_txt }}</label><br>
+            <input type="text" name="amount" id="amount" value="10"><br>
+            <small>{{ curr_txt }}</small><br>
+            <input type="hidden" name="notify_url" value="http://microdrum.altervista.org/blog/wp-content/plugins/donate-plus/paypal.php">
+            <input type="hidden" name="item_name" value="Donation to microDrum">
+            <input type="hidden" name="business" value="massimo.bernava@gmail.com">
+            <input type="hidden" name="lc" value="US">
+            <input type="hidden" name="no_note" value="1">
+            <input type="hidden" name="no_shipping" value="1">
+            <input type="hidden" name="rm" value="1">
+            <input type="hidden" name="return" value="http://microdrum.altervista.org/blog/info/?thankyou=true">
+            <input type="hidden" name="currency_code" value="EUR">
+            <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHosted">
+            <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="">
+            <img src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" alt="" border="0">
+        </form>
+    </div>
+</div>
