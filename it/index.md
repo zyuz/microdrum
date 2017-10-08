@@ -19,7 +19,7 @@ txt3: " Archivio Notizie"
 	</div>
 </div><br>
 
-MicroDRUM è il più semplice ed economico MIDI drum trigger da assemblare.<br>
+microDrum è il più semplice ed economico MIDI drum trigger da assemblare.<br>
 È basato su Arduino e può essere utilizzato da una vasta gamma di pad e cimbali
 elettronici, fino ad un massimo di 48 ingressi!<br>
 L'uscita MIDI può essere collegata ad un PC e convertita in suoni di batteria

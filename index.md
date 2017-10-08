@@ -19,7 +19,7 @@ txt3: " News Archive"
 	</div>
 </div><br>
 
-MicroDRUM is the most economical and simple way to build MIDI drum trigger.<br>
+microDrum is the most economical and simple way to build MIDI drum trigger.<br>
 It’s based on Arduino and can be used with a huge variety of e-pads / e-cymbals,
 up to 48 inputs!<br>
 The output can be sent to a PC and converted to drum sounds through VST like BFD,
