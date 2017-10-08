@@ -2,8 +2,6 @@
 title: Gallery
 lang: en
 layout: home
-stylesheets: lightbox.min
-scripts: lightbox.min
 ---
 Here are some photos of microDRUM made by me or members of the forum:
 

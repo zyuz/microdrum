@@ -1,8 +1,6 @@
 ---
 title: Home
 layout: home
-scripts: slideshow
-stylesheets: slideshow
 lang: en
 date_fmt: "%B %d, %Y"
 txt1: "Posted on "

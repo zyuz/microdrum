@@ -1,8 +1,6 @@
 ---
 title: Home
 layout: home
-scripts: slideshow
-stylesheets: slideshow
 lang: it
 date_fmt: "%d/%m/%Y"
 txt1: "Pubblicato il "
