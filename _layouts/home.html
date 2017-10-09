@@ -4,13 +4,26 @@
 {% include head.html %}
 	</head>
 	<body>
-		<a href="#content" class="sr-only">Skip to content</a>
 		<div class="container">
 {% include header.html %}
+			<div class="slideshow-container">
+				<div class="slide fade">
+					<img src="/assets/img/Box_v1_1.jpg" style="width:100%"></div>
+				<div class="slide fade">
+					<img src="/assets/img/microDrum_v0_8.jpg" style="width:100%"></div>
+				<div class="slide fade">
+					<img src="/assets/img/nanoDrum_v1_0-1.jpg" style="width:100%"></div>
+				<div class="slide fade">
+					<img src="/assets/img/nanoDrum_v1_0-2.jpg" style="width:100%">
+				</div>
+			</div><br>
+			<a href="#content" class="sr-only">Skip to content</a>
 			<div class="row" id="content">
 				<div class="col-md-9">
 					<article>
+					<div class="jumbotron">
 {{ content }}
+					</div>
 					</article>
 				</div>
 				<div class="col-md-3">

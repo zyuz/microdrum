@@ -1,7 +1,6 @@
 ---
 title: Gallery
 lang: en
-layout: home
 ---
 Here are some photos of microDRUM made by me or members of the forum:
 

@@ -7,18 +7,6 @@ txt1: "Pubblicato il "
 txt2: "Commenti"
 txt3: " Archivio Notizie"
 ---
-<div class="slideshow-container">
-	<div class="mySlides fade">
-		<img src="/assets/img/Box_v1_1.jpg" style="width:100%"></div>
-	<div class="mySlides fade">
-		<img src="/assets/img/microDrum_v0_8.jpg" style="width:100%"></div>
-	<div class="mySlides fade">
-		<img src="/assets/img/nanoDrum_v1_0-1.jpg" style="width:100%"></div>
-	<div class="mySlides fade">
-		<img src="/assets/img/nanoDrum_v1_0-2.jpg" style="width:100%">
-	</div>
-</div><br>
-
 microDrum è il più semplice ed economico MIDI drum trigger da assemblare.<br>
 È basato su Arduino e può essere utilizzato da una vasta gamma di pad e cimbali
 elettronici, fino ad un massimo di 48 ingressi!<br>

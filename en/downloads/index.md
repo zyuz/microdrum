@@ -1,6 +1,5 @@
 ---
 title: Downloads
-layout: home
 lang: en
 ---
 ## Here is the beta version of the schema and pcb:
