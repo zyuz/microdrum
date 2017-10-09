@@ -3,7 +3,7 @@ title: How to Build/Setup a microDrum
 lang: en
 ---
 Note: Thanks go out to WesleyS for putting together the original instructions
-from which this wiki post is taken. The original post can be found [here](http://microdrum.altervista.org/forum/viewtopic.php?f=18&t=215)
+from which this wiki post is taken. The original post can be found [here](http://microdrum.net/forum/viewtopic.php?f=18&t=215)
 
 These instructions are primarily for breadboarding the microDrum system for
 people that aren't ready to jump straight to the PCB version.

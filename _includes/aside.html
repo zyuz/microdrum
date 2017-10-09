@@ -13,7 +13,7 @@
 			<li><a href="https://www.youtube.com/user/MassimoBernava/">
 				<i class="fa fa-youtube fa-fw" aria-hidden="true"></i> YouTube</a>
 			</li>
-			<li><a href="http://microdrum.altervista.org/forum/">
+			<li><a href="http://microdrum.net/forum/">
 				<i class="fa fa-users fa-fw" aria-hidden="true"></i> Forum</a>
 			</li>
 			<li><a href="/{{ page.lang }}/feed.xml" title="News RSS Feed">
@@ -36,7 +36,7 @@
 </div>
 <!--div class="panel panel-primary">
 {% assign head_title="Contacts" %}
-{% if page.lang == "it" %} {% assign head_title="Contatti" %} {% endif %}microdrum
+{% if page.lang == "it" %} {% assign head_title="Contatti" %} {% endif %}
 	<div class="panel-heading"><i class="fa fa-users fa-fw" aria-hidden="true"></i> {{ head_title }}</div>
 	<div class="panel-body">
 		<ul class="nav nav-pills nav-stacked">
@@ -53,7 +53,7 @@
 {% if page.lang == "it" %}
 	{% assign head_title="Donazione" %}
 	{% assign amount_txt="Offerta:" %}
-	{% assign curr_txt="(Valuta: Euro)" %}microdrum
+	{% assign curr_txt="(Valuta: Euro)" %}
 {% endif %}
 <div class="panel-heading"><i class="fa fa-paypal fa-fw" aria-hidden="true"></i> {{ head_title }}</div>
 	<div class="panel-body">
@@ -62,14 +62,14 @@
 			<label for="amount">{{ amount_txt }}</label><br>
 			<input type="text" name="amount" id="amount" value="10"><br>
 			<small>{{ curr_txt }}</small><br>
-			<input type="hidden" name="notify_url" value="http://microdrum.altervista.org/blog/wp-content/plugins/donate-plus/paypal.php">
+			<input type="hidden" name="notify_url" value="http://microdrum.net/blog/wp-content/plugins/donate-plus/paypal.php">
 			<input type="hidden" name="item_name" value="Donation to microDrum">
 			<input type="hidden" name="business" value="massimo.bernava@gmail.com">
 			<input type="hidden" name="lc" value="US">
 			<input type="hidden" name="no_note" value="1">
 			<input type="hidden" name="no_shipping" value="1">
 			<input type="hidden" name="rm" value="1">
-			<input type="hidden" name="return" value="http://microdrum.altervista.org/blog/info/?thankyou=true">
+			<input type="hidden" name="return" value="http://microdrum.net/blog/info/?thankyou=true">
 			<input type="hidden" name="currency_code" value="EUR">
 			<input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHosted">
 			<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="">

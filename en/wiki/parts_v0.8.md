@@ -12,7 +12,7 @@ availability issues for the main parts.
 | Part            | Qty | Description                                                      | Manufacturer Part No
 | --------------- | --- | ---------------------------------------------------------------- | -----------
 |                 |     |                                                                  | **Circuit Board**
-| PCB             | 1   | Mainboard v0.8                                                   | [microDrum Store](http://microdrum.altervista.org/blog/products-page-2/pcb/microdrum-pcb-v0-8-fundraising-duplicate/)
+| PCB             | 1   | Mainboard v0.8                                                   | [microDrum Store](http://microdrum.net/blog/products-page-2/pcb/microdrum-pcb-v0-8-fundraising-duplicate/)
 |                 |     |                                                                  | **Arduino**
 | Uno             | 1   | Will need Mainboard set to 5V version                            | [A000066](http://www2.mouser.com/Search/ProductDetail.aspx?R=0virtualkey0virtualkey782-A000066)
 | Due             | 1   | Will need Mainboard set to 3.3V version                          | [A000062](http://www2.mouser.com/Search/ProductDetail.aspx?R=0virtualkey0virtualkey782-A000062)
