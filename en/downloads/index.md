@@ -2,31 +2,33 @@
 title: Downloads
 lang: en
 ---
-## Here is the beta version of the schema and pcb:
+## Hardware
 
-[microDrum v0.7 Schematic](/downloads/microDRUM_v0.7-Schematic.pdf)
+[microDrum v0.7](https://github.com/microdrum/hardware/archive/v0.7.zip)
+[![Github Releases (by Release)](https://img.shields.io/github/downloads/microdrum/hardware/v0.7/total.svg?style=plastic)](https://github.com/microdrum/hardware/archive/v0.7.zip)
 
-[microDrum v0.7 PCB](/downloads/microDRUM_v0.7-PCB.pdf)
+[microDrum v0.8](https://github.com/microdrum/hardware/archive/v0.8.zip)
+[![Github Releases (by Release)](https://img.shields.io/github/downloads/microdrum/hardware/v0.8/total.svg?style=plastic)](https://github.com/microdrum/hardware/archive/v0.8.zip)
 
-[microDrum v0.7 Gerber](/downloads/microDRUM_v0.7-Gerber.zip)
+[nanoDrum v1.1](https://github.com/microdrum/nanodrum/archive/v1.1.zip)
+[![Github Releases (by Release)](https://img.shields.io/github/downloads/microdrum/nanodrum/v1.1/total.svg?style=plastic)](https://github.com/microdrum/nanodrum/archive/v1.1.zip)
 
-[microDrum Jack v0.4 Schematic](/downloads/microDRUM_Jack_v0.4-Schematic.pdf)
+## Software
 
-[microDrum Jack v0.4 PCB](/downloads/microDRUM_Jack_v0.4-PCB.pdf)
+[Firmware v1.0](https://github.com/microdrum/firmware/archive/v1.0.zip)
+[![Github Releases (by Release)](https://img.shields.io/github/downloads/microdrum/firmware/v1.0/total.svg?style=plastic)](https://github.com/microdrum/firmware/archive/v1.0.zip)
 
-[microDrum LCD v0.1 Schematic](/downloads/microDRUM_LCD_v0.1-Schematic.pdf)
+[ConfigTool v1.0](https://github.com/microdrum/configtool/archive/v1.0.zip)
+[![Github Releases (by Release)](https://img.shields.io/github/downloads/microdrum/configtool/v1.0/total.svg?style=plastic)](https://github.com/microdrum/configtool/archive/v1.0.zip)
 
-[microDrum Box v1.1 Design](/downloads/microDrumBox_v1.1.pdf)
+[DrumScope v0.1](https://github.com/microdrum/drumscope/archive/v0.1.zip)
+[![Github Releases (by Release)](https://img.shields.io/github/downloads/microdrum/drumscope/v0.1/total.svg?style=plastic)](https://github.com/microdrum/drumscope/archive/v0.1.zip)
+<!--
+[Python Executable for Windows](https://github.com/microdrum/configtool-py-win/archive/v0.1.zip)
+[![Github Releases (by Release)](https://img.shields.io/github/downloads/microdrum/hardware/v0.1/total.svg?style=plastic)](https://github.com/microdrum/configtool-py-win/archive/v0.1.zip)
+-->
 
-## And here is the software, that is absolutely unstable and dangerous:
-
-[microDrum Firmware v1.0](/downloads/microDRUM_Firmware_v1.0.zip)
-
-[microDrum ConfigTool v1.0](/downloads/microDRUM_ConfigTool_v1.0.zip)
-
-[DrumScope v0.1](/downloads/DrumScope-v0.1.zip) To run the ConfigTool is required .NET
-Framework v3.5 from Microsoft. To upload the firmware you can use the same
-ConfigTool, for security should do so with Arduino connected with only USB, the
-rest of microDrum must be disconnected.
-
-[microDrum Python Executable for Windows v0.0](/downloads/python_microdrum_exe.zip)
+[Microsoft .NET Framework v3.5](https://www.microsoft.com/it-it/download/details.aspx?id=21)
+is required to run ConfigTool.<br>
+ConfigTool can be used to upload the firmware to Arduino via USB.<br>
+It's recommended to disconnect microDrum from Arduino before the firmware upload.
