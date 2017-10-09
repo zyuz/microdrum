@@ -1,5 +1,5 @@
 ---
-title: microDrum - Downloads
+title: Downloads
 layout: home
 lang: en
 ---
