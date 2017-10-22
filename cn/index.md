@@ -1,21 +1,26 @@
 ---
-title: Home
+title: 主页
 layout: home
-lang: en
+lang: cn
 date_fmt: "%B %d, %Y"
 txt1: "Posted on "
 txt2: "Comments"
 txt3: " News Archive"
 ---
-microDrum is the most economical and simple way to build MIDI drum trigger.<br>
-It’s based on Arduino and can be used with a huge variety of e-pads / e-cymbals,
-up to 48 inputs!<br>
-The output can be sent to a PC and converted to drum sounds through VST like BFD,
-Addictive Drums and Superior Drummer, etc. …
+microDrum 是搭建电子鼓MIDI触发器最经济、最简单的途径。<br>
+它基于Arduino，并可以使用各种各样的电子鼓盘、电子钹（镲）,
+高达48路输入!<br>
+可将输出发送到PC电脑，并通过VST（像BFD、Addictive Drums 、Superior Drummer等）转换为鼓声，
+
+附带的软件允许在任何类似的解决方案中没有找到功能：
+与VST直接接口（没有USB-MIDI电缆）、记录、回放的琴谱
+在…上练习……<br>
+这是一个源自意大利的开源硬件！<br><br>
+
 The accompanying software allows features not found in any similar solution: a
 direct interface with VST (without USB-MIDI cable), record, playback of tablature
 to practice on, etc. …<br>
-This is a Open Hardware product made in Italy!<br><br>
+This is a Open Hardware product made in Italy!
 
 <img src="/assets/img/FirstVideo.jpg" alt="FirstVideo" class="img-responsive">
 
