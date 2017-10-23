@@ -26,7 +26,7 @@ lang: cn
         {% assign str_dir = arr.first %}
 <h3>{{ str_dir }}</h3>
 <div class="album">
-    <a href="/gallery/{{ img_path }}" data-lightbox="{{ str_dir }}">
+    <a href="/microdrum/gallery/{{ img_path }}" data-lightbox="{{ str_dir }}">
         <img src="/gallery/{{ img_path }}" alt="[{{ str_dir }} image]" style="background-color:white;width:30%;padding:4px;border:1px solid black;margin:4px">
     </a>
 </div>
@@ -34,6 +34,6 @@ lang: cn
     {% if is_preview %}
         {% assign is_preview = false %}
     {% else %}
-<a href="/gallery/{{ img_path }}" data-lightbox="{{ str_dir }}"></a>
+<a href="/microdrum/gallery/{{ img_path }}" data-lightbox="{{ str_dir }}"></a>
     {% endif %}
 {% endfor %}

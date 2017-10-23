@@ -4,29 +4,27 @@ lang: cn
 ---
 ## Tools Required
 
-Basic soldering skills are needed for building the microDrum using the official
-pcbs, but these are quickly learnt with a bit of practice.
-There are plenty of guides and videos out there to show you how to do it.
-The tools you will need are listed below: 
+使用官方的PCB来搭建microDrum是需要基本的焊接技术的，但这些都能很快就学会的，你要的只是一点实践。
+有很多指南和视频可以告诉你怎么做。
+您需要的工具如下所示：
 
-| Tool                   | Description |
+
+
+| 工具                   | 描述 |
 | ---------------------- | --- |
-| Soldering Iron         | This should be between 25w and 40w. If this is the only bit of soldering you ever plan to do then something cheap and cheerful is likely to be ok. A chisel tip (2-3mm) is good for this build. |
-| Soldering Iron Stand   | Very useful, stops your workbench becoming a mess of burnmarks and you grabbing the wrong end... The coil type with a sponge to clean your tip is a common one |
-| Soldering Tip Cleaner  | This is pot of low abrasive brass shavings, used to clean the tip of your soldering iron. This isn't necessarily required, a sponge on the coil holder above is enough unless you plan to do a lot of soldering. |
-| Solder                 | If you buy a kit it may come with some leadfree solder. This flows a little less easily than lead solder, but is still okay for this build. Otherwise get some with a rosin core, also known as flux-core. 0.7mm diameter is a good size for this project, and soldering electronics in general. |
+| 电烙铁         | 应该是25w和40W之间。尖端在2-3mm左右可能会更好点 |
+| 烙铁架   | 非常有用, 避免让你的工作台成为烧伤痕迹累累的地方，可以用海棉来清洁 |
+| 烙铁头的清洁  | 低磨料黄铜屑锅，用于清洁烙铁头。这不是必需的。 |
+| 焊锡                 | If you buy a kit it may come with some leadfree solder. This flows a little less easily than lead solder, but is still okay for this build. Otherwise get some with a rosin core, also known as flux-core. 0.7mm diameter is a good size for this project, and soldering electronics in general. |
 | Third Hand             | These are very useful! Basically a bar with a crocodile clip at each end and a magnifying glass in the middle, either you can use it to hold your board still and have solder in one of your hands and the iron in the other, or you can hold the solder with one clip, and bring the board to it whilst holding a part in place. A very cheap investment, not essential but worth it. The magnifying glass helps too. |
-| Wire Cutters/Strippers | Useful for obvious reasons. You can get away with using cutters as strippers, if you are careful not to cut into the wire as well as the plastic sheath, or you can buy fancy strippers that make life easier |
-| Needle Nose Pliers     | Not essential, but useful for bending wires, component leads, holding things in place etc... |
-| Multimeter             | These range from cheap to very expensive, and although not essential they are good for checking for short circuits and diagnosing issues. You can probably get away with being an optimist and not buying one until you finish building it. Then if you have problems get one and start checking those joints... |
-| Masking Tape           | Definitely not essential, but stops the crocodile clips on a Helping Hand marking the edges of the pcb when holding it. |
+| 钢丝钳/剥线钳 | Useful for obvious reasons. You can get away with using cutters as strippers, if you are careful not to cut into the wire as well as the plastic sheath, or you can buy fancy strippers that make life easier |
+| 尖嘴钳     | Not essential, but useful for bending wires, component leads, holding things in place etc... |
+| 万用表            | These range from cheap to very expensive, and although not essential they are good for checking for short circuits and diagnosing issues. You can probably get away with being an optimist and not buying one until you finish building it. Then if you have problems get one and start checking those joints... |
+| 绝缘胶带          | Definitely not essential, but stops the crocodile clips on a Helping Hand marking the edges of the pcb when holding it. |
 
-## Motherboard V0.7
+## 主板 V0.7
 
-There are a few build options available when populating this board, as shown in
-the table on the board itself, and below.
-The board in the photos for this guide has been stuffed with all components for
-reference, feel free to leave out those parts that are not required.
+填充PCB主板时可以使用几种选项，如下方所示。本指南照片中的主板已填写所有组件供参考，请随意省去不需要的部件。
 
 | Part | V5 - Thru | V3.3 - Thru | V5 - No Thru | V3.3 - No Thru | 
 | ---- | --------- | ----------- | ------------ | -------------- |
@@ -39,17 +37,13 @@ reference, feel free to leave out those parts that are not required.
 
 <br>
 
-Regarding jumpers and switches - These can either be populated as per the
-photographs, with headers and jumpers in place to select the required option,
-or if you never expect to change the positions you can simply solder a piece of
-wire across the position you need.
+关于跳线和开关 - 可以根据照片进行填充，可根据实际来选择所需的选项，或者如果您从不期望更改位置，您可以简单地在所需位置焊接一根电线。
 
-It is generally easier when stuffing a pcb to start with the lowest profile
-pieces so things don't get in your way as you progress. 
+通过使用最小的配置文件填充pcb时，通常更容易，因此在进度中不会让您遇到困难。
 
-### Bare Board
+### 裸板
 
-Here are photos of the top and bottom of the bare Mainboard V0.7 PCB for reference:
+以下是裸机主板V0.7 PCB的顶部和底部的照片，供参考：
 
 <img src="./mainboard-v0-7-top.jpg" alt="Top" class="img-responsive">
 <img src="./mainboard-v0-7-bottom.jpg" alt="Bottom" class="img-responsive">
